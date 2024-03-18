@@ -8,7 +8,6 @@
 
 package com.goncharuk.Task2;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -34,7 +33,7 @@ public class Task2 {
         Thread.sleep(250);
         readerThread.join();
 
-        System.out.printf("\nlistOfNumbers : %s\n", List.of(listOfNumbers).toString());
+        System.out.printf("\nlistOfNumbers : %s\n", List.of(listOfNumbers));
         System.out.println("\nПрограмма завершена.");
     }
 }
